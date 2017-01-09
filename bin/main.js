@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+var path = require('path');
+
 var DiawiUploader = require("../ipa2diawi.js");
 
 function printUsage() {
